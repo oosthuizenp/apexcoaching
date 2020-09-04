@@ -35,17 +35,36 @@ linkedin_username: craig-stuart-ab244950
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-seo-tag
 # theme: jekyll-theme-basically-basic
 
+# generate social links in footer
+minima:
+  social_links:
+    linkedin: craig-stuart-ab244950
+    # twitter: jekyllrb
+    # github:  jekyll
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: xxx
+    # flickr:   jekyll
+    # instagram: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
 # These are default values for the frontmatter
-default:
-  - scope:
-      path: ""
-      type: "post"
-    values:
-        layout: "post"
-        title: "My Title"
+# default:
+#   - scope:
+#       path: ""
+#       type: "post"
+#     values:
+#         layout: "post"
+#         title: "My Title"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -66,3 +85,4 @@ default:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+

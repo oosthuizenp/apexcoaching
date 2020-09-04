@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-# Life Purpose
+## Life Purpose
 As a driven, authentic, and intentional person, I place a great importance on relationships
 and connection. I am skilled at using encouragement and motivation to help people
 to better understand both themselves and those around them. By connecting individuals
@@ -12,7 +12,7 @@ able to access improved thinking and self-talk, as well as heightened emotional 
 Ultimately, my purpose is to help individuals, leaders and teams to enhance their
 strengths while recognising and overcoming their weaknesses. 
 
-### Experience and Focus
+## Experience and Focus
 I am not only an experienced people development specialist, but also someone who
 understands the balance between work and personal life. I am a committed family
 man, dedicated husband, and proud father of a young son. I also have a deep love
@@ -38,7 +38,7 @@ working knowledge and experience in the creation of internal learning academies,
 employee and team engagement initiatives, onboarding and induction, talent development
 and succession planning, as well as general training and facilitation. 
 
-### Personal Profile
+## Personal Profile
 I am not only an experienced people development specialist, but also someone who
 understands the balance between work and personal life. I am a committed family
 man, dedicated husband, and proud father of a young son. I also have a deep love
