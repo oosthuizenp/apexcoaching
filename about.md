@@ -3,6 +3,13 @@ layout: page
 title: About
 permalink: /about/
 ---
+
+## Qualifications:
+* Bachelor of Business Admin. Honours (IMM)
+* Foundations of Executive Coaching (UCT)
+* Neuro Leadership Institute (NLI) Brain Based Coach
+* Comensa Member
+
 ## Life Purpose
 As a driven, authentic, and intentional person, I place a great importance on relationships
 and connection. I am skilled at using encouragement and motivation to help people
