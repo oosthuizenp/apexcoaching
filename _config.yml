@@ -36,6 +36,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# theme: jekyll-theme-basically-basic
+
 # These are default values for the frontmatter
 default:
   - scope:

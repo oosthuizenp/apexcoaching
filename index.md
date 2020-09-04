@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+image: /images/paris.png
 ---
 # The Challenge - What do most leaders want to overcome?
 
