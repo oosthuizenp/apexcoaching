@@ -5,7 +5,7 @@
 layout: home
 image: /images/paris.png
 ---
-# The Challenge - What do most leaders want to overcome?
+## The Challenge - What do most leaders want to overcome?
 
 In my 10 years as a people development specialist, I have seen leaders battling with
 two main challenges:
