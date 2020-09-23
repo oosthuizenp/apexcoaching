@@ -306,8 +306,7 @@ nav.navbar.sticky {
 }
 
 .clients .client-logo img {
-  height: 5
-  0%;
+  height: 50%;
   -webkit-filter: grayscale(60%);
   filter: grayscale(60%);
   transition: 0.4s;
