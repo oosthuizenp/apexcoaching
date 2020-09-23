@@ -141,11 +141,11 @@ nav.navbar.sticky {
 .intro {
   position: relative;
   /* width: 100%; */
-  height: 50vh;
+  height: 40vh;
   background-image: cover;
   color: #fff;
   background-color: #111;
-  min-height: 600px;
+  min-height: 550px;
   padding: 0;
   background-size: cover;
   background-position: center center;
