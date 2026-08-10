@@ -34,7 +34,7 @@
   <!-- Google fonts - Titles - Oswald | Body Copy - Montserrat & Arvo-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Arvo:400,400italic,700">
   <link rel="stylesheet" href="/assets/css/style.default.css" id="theme-stylesheet">
-  <link rel="shortcut icon" href="/assets/img/logo/favicon.png">
+  <link rel="shortcut icon" href="/assets/img/social/favicon.png">
 
   <!-- Google Analytics 4 (gtag.js) - replace G-XXXXXXXXXX with the real GA4 Measurement ID -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
@@ -514,63 +514,98 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Apex Coaching",
-    "image": "https://www.apexcoaching.co.za/assets/img/profile/craig-stuart.png",
-    "url": "https://www.apexcoaching.co.za/",
-    "telephone": "+27-73-316-7105",
-    "email": "craig@apexleadership.co.za",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Durban",
-      "addressRegion": "KwaZulu-Natal",
-      "addressCountry": "ZA"
-    },
-    "areaServed": ["Durban", "Umhlanga", "Remote"],
-    "founder": {
-      "@type": "Person",
-      "name": "Craig Stuart",
-      "jobTitle": "Executive Coach",
-      "sameAs": "https://www.linkedin.com/in/craig-stuart-ab244950/"
-    }
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+    "@graph": [
       {
-        "@type": "Question",
-        "name": "What does a coaching engagement look like?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sessions are typically one hour and can be held in person in Durban or Umhlanga, or remotely. We begin by understanding your context and goals, then build practical rhythms, routines and habits that create lasting change."
+        "@type": "WebSite",
+        "@id": "https://www.apexcoaching.co.za/#website",
+        "name": "Apex Coaching",
+        "url": "https://www.apexcoaching.co.za/",
+        "description": "Personal and executive coaching with Craig Stuart in Durban, Umhlanga and remotely.",
+        "publisher": {
+          "@id": "https://www.apexcoaching.co.za/#business"
         }
       },
       {
-        "@type": "Question",
-        "name": "Who is coaching for?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Leaders developing their ability to self-lead, new leaders finding their style, people navigating relational complexity at work, and anyone wanting intentional rhythms and habits in their life and work."
-        }
+        "@type": "ProfessionalService",
+        "@id": "https://www.apexcoaching.co.za/#business",
+        "name": "Apex Coaching",
+        "description": "Personal, executive and leadership coaching for leaders, teams and individuals.",
+        "image": "https://www.apexcoaching.co.za/assets/img/profile/craig-stuart.png",
+        "logo": "https://www.apexcoaching.co.za/assets/img/logo/apex-white.png",
+        "url": "https://www.apexcoaching.co.za/",
+        "telephone": "+27-73-316-7105",
+        "email": "craig@apexleadership.co.za",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Durban",
+          "addressRegion": "KwaZulu-Natal",
+          "addressCountry": "ZA"
+        },
+        "areaServed": ["Durban", "Umhlanga", "Remote"],
+        "serviceType": [
+          "Personal coaching",
+          "Executive coaching",
+          "Leadership coaching",
+          "Team coaching",
+          "Self-leadership coaching"
+        ],
+        "founder": {
+          "@id": "https://www.apexcoaching.co.za/#craig-stuart"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/craig-stuart-ab244950/"
+        ]
       },
       {
-        "@type": "Question",
-        "name": "Is what we discuss kept confidential?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Coaching is a safe, confidential space. What you share is held in confidence, and you remain in control of your own goals and the actions you commit to."
-        }
+        "@type": "Person",
+        "@id": "https://www.apexcoaching.co.za/#craig-stuart",
+        "name": "Craig Stuart",
+        "jobTitle": "Personal and Executive Coach",
+        "worksFor": {
+          "@id": "https://www.apexcoaching.co.za/#business"
+        },
+        "image": "https://www.apexcoaching.co.za/assets/img/profile/craig-stuart.png",
+        "sameAs": [
+          "https://www.linkedin.com/in/craig-stuart-ab244950/"
+        ]
       },
       {
-        "@type": "Question",
-        "name": "How do we get started?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Reach out via the contact details on the site for an initial conversation. There is no obligation; we simply explore whether coaching is the right fit for where you are right now."
-        }
+        "@type": "FAQPage",
+        "@id": "https://www.apexcoaching.co.za/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does a coaching engagement look like?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sessions are typically one hour and can be held in person in Durban or Umhlanga, or remotely. We begin by understanding your context and goals, then build practical rhythms, routines and habits that create lasting change."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who is coaching for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Leaders developing their ability to self-lead, new leaders finding their style, people navigating relational complexity at work, and anyone wanting intentional rhythms and habits in their life and work."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is what we discuss kept confidential?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Coaching is a safe, confidential space. What you share is held in confidence, and you remain in control of your own goals and the actions you commit to."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do we get started?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Reach out via the contact details on the site for an initial conversation. There is no obligation; we simply explore whether coaching is the right fit for where you are right now."
+            }
+          }
+        ]
       }
     ]
   }

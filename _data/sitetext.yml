@@ -1,0 +1,187 @@
+# Site-wide defaults
+defaults:
+  contact:
+    phone: "073 316 7105"
+    email: "craig@apexleadership.co.za"
+    linkedin: "https://www.linkedin.com/in/craig-stuart-ab244950/"
+    copyright: "© 2020–2025 Apex Coaching"
+
+  services:
+    - icon: "fa-angle-double-up"
+      title: "Understanding"
+      text: "Increase levels of self-awareness."
+    - icon: "fa-shield"
+      title: "Strengthening"
+      text: "Encourage, motivate, and hold accountable."
+    - icon: "fa-unlock-alt"
+      title: "Unlocking"
+      text: "Create positive and lasting change."
+
+# Homepage
+home:
+  title: "Personal and Executive Coaching in Durban | Apex Coaching"
+  description: "Apex Coaching offers personal, executive and leadership coaching with Craig Stuart in Durban, Umhlanga and remotely. Build self-leadership, clarity and lasting change."
+  canonical: "https://www.apexcoaching.co.za/"
+
+  og:
+    title: "Personal and Executive Coaching in Durban | Apex Coaching"
+    description: "Personal, executive and leadership coaching with Craig Stuart in Durban, Umhlanga and remotely."
+    image: "https://www.apexcoaching.co.za/assets/img/logo/apex-white.png"
+    site_name: "Apex Coaching"
+    locale: "en_ZA"
+
+  twitter:
+    card: "summary_large_image"
+    title: "Personal and Executive Coaching in Durban | Apex Coaching"
+    description: "Personal, executive and leadership coaching with Craig Stuart in Durban, Umhlanga and remotely."
+    image: "https://www.apexcoaching.co.za/assets/img/logo/apex-white.png"
+
+  hero:
+    heading: "Personal and Executive Coaching"
+    tagline: "Apex Coaching with Craig Stuart in Durban, Umhlanga and remotely."
+
+  about:
+    heading: "About Craig"
+    paragraphs:
+      - |
+        I am a coach and people development specialist who works with individuals and teams to create positive and lasting change. My work is grounded in the understanding that we are what we repeatedly do, and my approach involves helping people to overcome challenges through attention, repetition, and encouragement. This creates sound patterns of self-leadership through enhanced self-awareness. Not only does this process help individuals to be fully present in their work and life, it also ultimately empowers them to take control of what guides and drives them.
+      - |
+        My key strength lies in navigating relational complexity in the workplace. I do this by helping my clients gain perspective and a clear understanding of their environment, themselves, and their role in those spaces. My coaching niche lies in my ability to create healthy rhythms, routines, and habits for those already on their leadership journey or those just starting out, with the core belief that "It is not the mountain we conquer, but ourselves."
+
+  how_i_help:
+    heading: "How I Can Help"
+    intro:
+      - |
+        The business world does not stop. The optimal way for us to focus on our own journey, however, is to slow down and allow the voice of an experienced and professional coach to speak into those areas that challenge us by holding up a mirror to our lives, understanding that the hardest person we will ever have to lead is ourselves.
+      - |
+        Sustainable growth requires us to both experience events and then reflect on them. If you want to grow your leadership abilities, you need to create space for intentional reflection with someone you trust, who has integrity, and who wants to see you journey toward a better place.
+    benefits:
+      - "Leaders focused on developing their ability to self-lead and how they lead their teams."
+      - "Leaders engaging in relational complexity, usually arising from a rapidly changing business landscape."
+      - "New leaders embarking on discovering their own leadership style."
+      - "Individuals wanting to create intentional and practical rhythms, routines, and habits to their lives."
+      - "Anyone stuck in a rut needing to change the way they solve problems, by changing the way they think."
+
+  services:
+    heading: "What I Do"
+
+  testimonials:
+    heading: "What Others Say"
+    items:
+      - image: "/assets/img/profile/testimonial-travis-gale.jpg"
+        name: "Travis Gale"
+        role: "Founder & Owner"
+        company: "Appletree"
+        quote: |
+          We are privileged to partner with Craig in the coaching arena at Appletree. He is passionate about what he does which is highly infectious and inspirational to the rest of our team. He brings wisdom to all our conversations given his personal and corporate experience. Lastly, he has the integrity which means that we and all the clients he has interacted with on our behalf, have benefited from the safe space he creates.
+      - name: "Gerrie Noel"
+        role: "Senior Academic"
+        company: "Michaelhouse"
+        quote: |
+          Having someone independent from your work and personal life to download all that is going through your head has been an invaluable discovery for me. It saves the people closest to me from having to deal with things I am struggling with at work. Craig has helped put into perspective and practice meaningful ways of navigating work and life - he is compassionate to the core.
+      - name: "Matthew Merrick"
+        role: "Country Operations Director"
+        company: "New Forests"
+        quote: |
+          I thoroughly enjoy my sessions with Craig. He is clearly passionate about coaching people and trying to get them to realize their full potential. He balances a professional approach with being very relatable. Craig has a great depth of knowledge across many spectrums, and he has used this to guide me in finding solutions for; and dealing with difficult issues in my personal and professional life. What I enjoy about Craig is that he pushes me to identify my own solutions and goals without feeding me the answers - but then holds me accountable for my subsequent actions. He has been instrumental in helping our management team on the path to becoming a more collaborative unit.
+      - name: "Ross Rodger"
+        role: "Lead Pastor"
+        company: "Olive Tree Church"
+        quote: |
+          I have so deeply appreciated Craig and his approach to staff and staff culture. In a very touchy-feely world, he gets people to take responsibility for themselves and move forward. I've got to see him use many different skills to effectively bring people into good emotional spaces and then equips them to take appropriate next steps. I believe Craig can add to any business and would highly recommend his coaching.
+      - name: "Sue Oosthuizen"
+        role: "Head of Vezikhono Academy"
+        company: "Vezikhono | Frey's Food Brands"
+        quote: |
+          Craig is a natural leader and has quickly understood the demands and challenges of my world which has made it easy to work with him. He creates a safe space in which I feel comfortable to share the challenges I want to overcome, and has assisted me with understanding what trauma is, my reactions to it, even when I originally thought that I wasn't experiencing trauma. I believe that we have underplayed the impact of trauma, specifically COVID-19 and the looting of 2021, and how it affected us. I now understand how I react to trauma and have realized that expressing how I feel, and not suppressing my trauma, has helped me process it and move forward in a positive manner. With Craig's help I have realized from a leadership perspective where I need to focus my attention to take my team to the next level and embrace being a proactive leader and not reactive one.
+      - image: "/assets/img/profile/testimonials-1.jpg"
+        name: "Jared Price"
+        company: "Kaomi Marketing"
+        quote: |
+          Craig is very relatable which helps me open up in our coaching sessions. I find Craig's approach adaptable in creating practices and actions that seem like they are tailored for me. I never thought I would see a growth coach but after my sessions with Craig I would highly recommend the coaching process to anyone. Craig has helped me find measurable balance in my life through tools such as the balance wheel, as well as holding me accountable to the commitments I make and goals I set. I have thoroughly enjoyed our sessions and have seen the positive impact in my life, so much so, I have started practicing some of his practices, like the balance wheel with my fiancé. Overall, Craig is professional in his approach but blends a very real nuance to his coaching style - he understands where you are coming from and how to get you to be a better overall person.
+      - image: "/assets/img/profile/testimonials-2.jpg"
+        name: "Jenna Gamble"
+        company: "Kaomi Marketing"
+        quote: |
+          Craig is thoughtful, insightful and uplifting. He has unlocked strengths and abilities within me that I never knew I had locked away. His sessions challenge me to think outside the box and at times, he has given me a real sense of affirmation on certain actions or decisions I have made. He is wise and his mentorship has been of such great value in my work life and personal life. I have felt a real sense of growth and maturity since starting my coaching sessions with Craig. He is patient, and at times when I have felt emotional, he has put our work session plans aside and focused on me as an individual and walked me through these hard times to overcome them with strength and confidence. Having Craig as my life coach has empowered my confidence levels and the positivity, he has filled my life with is beyond all expectation. He has a gift and I am so blessed to have him as my coach!
+      - name: "Johnathan Bailes"
+        company: "Singita Game Reserves"
+        quote: |
+          Craig has been a sensational life and business coach. He can connect on a deep level and had incredible values and judgement. He truly walks his talk daily. He has guided me on a personal and business road in a very professional manner. I would highly recommend Craig to anyone seeking guidance in a business context.
+      - image: "/assets/img/profile/testimonials-4.jpg"
+        name: "Jessica King"
+        company: "Kaomi Marketing"
+        quote: |
+          Craig's coaching sessions from the start have been a great learning curve for me. They have helped me grow as a person not only in my personal life, but in my professional workplace as well. Craig has given me the confidence and tools to open up and have tough discussions with co-workers. He has taught me numerous coping skills and tools in the past few months. I now have better leadership skills, a better work/life balance, more focused on my goals and how to visualise them better and have learnt to deal with different personalities at work that I have in the past found difficult to deal with. Craig has been such an amazing coach, he is someone who is easy to connect with and makes you feel comfortable to talk about difficult subjects and willing to push yourself to figure out what works best for you. After finishing each session with Craig, I always feel uplifted and ready to go after the goals and plans I have put in place during the session.
+      - image: "/assets/img/profile/testimonials-5.jpg"
+        name: "Cornelius Weidmann"
+        company: "Impiweb"
+        quote: |
+          The coaching sessions are very professional. They were very well-paced, and Craig respects my time and knows how to accommodate me in cases where the schedule cannot be kept. The one-hour sessions are just enough time to cover good ground without feeling like there's too little time to tackle a topic. Every now and then Craig likes to introduce a neurological concept to validate or explain certain behaviours, this has helped me to better understand why and how I apply myself in certain situations. I can highly recommend his coaching sessions.
+
+  clients:
+    heading: "I Have Worked With"
+    logos:
+      - src: "/assets/img/clients/appletree-group-logo.png"
+        alt: "Appletree Group"
+      - src: "/assets/img/clients/michaelhouse-logo.png"
+        alt: "Michaelhouse"
+      - src: "/assets/img/clients/impiweb-logo.png"
+        alt: "Impiweb"
+      - src: "/assets/img/clients/metric-edge.png"
+        alt: "Metric Edge"
+      - src: "/assets/img/clients/mr-price-logo.png"
+        alt: "Mr Price"
+      - src: "/assets/img/clients/private-property-logo.png"
+        alt: "Private Property"
+      - src: "/assets/img/clients/olive-tree-logo.png"
+        alt: "Olive Tree Church"
+      - src: "/assets/img/clients/vezikhono-logo.png"
+        alt: "Vezikhono Academy"
+      - src: "/assets/img/clients/singita-logo.png"
+        alt: "Singita Game Reserves"
+      - src: "/assets/img/clients/kaomi-logo.png"
+        alt: "Kaomi Marketing"
+      - src: "/assets/img/clients/new-forests-logo.png"
+        alt: "New Forests Company"
+
+  faq:
+    heading: "Frequently Asked Questions"
+    items:
+      - question: "What does a coaching engagement look like?"
+        answer: "Sessions are typically one hour and can be held in person in Durban or Umhlanga, or remotely. We begin by understanding your context and goals, then build practical rhythms, routines and habits that create lasting change."
+      - question: "Who is coaching for?"
+        answer: "Leaders developing their ability to self-lead, new leaders finding their style, people navigating relational complexity at work, and anyone wanting intentional rhythms and habits in their life and work."
+      - question: "Is what we discuss kept confidential?"
+        answer: "Yes. Coaching is a safe, confidential space. What you share is held in confidence, and you remain in control of your own goals and the actions you commit to."
+      - question: "How do we get started?"
+        answer: "Reach out via the contact details on the site for an initial conversation. There is no obligation; we simply explore whether coaching is the right fit for where you are right now."
+
+# Contact page
+contact:
+  title: "Contact Craig Stuart | Apex Coaching"
+  description: "Contact Craig Stuart at Apex Coaching for personal, executive and leadership coaching in Durban, Umhlanga or remotely."
+  canonical: "https://www.apexcoaching.co.za/contact.html"
+
+  og:
+    title: "Contact Craig Stuart | Apex Coaching"
+    description: "Contact Craig Stuart for personal, executive and leadership coaching in Durban, Umhlanga or remotely."
+    image: "https://www.apexcoaching.co.za/assets/img/logo/apex-white.png"
+    site_name: "Apex Coaching"
+    locale: "en_ZA"
+
+  twitter:
+    card: "summary_large_image"
+    title: "Contact Craig Stuart | Apex Coaching"
+    description: "Contact Craig Stuart for personal, executive and leadership coaching in Durban, Umhlanga or remotely."
+    image: "https://www.apexcoaching.co.za/assets/img/logo/apex-white.png"
+
+  hero:
+    heading: "Contact Craig Stuart"
+    tagline: "Personal and Executive Coaching Enquiries"
+    intro: "Get in touch to explore whether coaching is the right fit for your leadership, work or personal growth goals. Enquiries are handled directly by Craig."
+    qualifications:
+      - "Bachelor of Business Admin. Honours (IMM)"
+      - "Foundations of Executive Coaching (UCT)"
+      - "Neuro Leadership Institute (NLI) Brain Based Coach"
+      - "Comensa Member"

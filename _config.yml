@@ -19,6 +19,7 @@ exclude:
   - .bundle-user/
   - .jekyll-cache/
   - .kilo/
+  - docs/
   - Gemfile
   - Gemfile.lock
   - README.md

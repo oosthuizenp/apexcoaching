@@ -17,6 +17,12 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* .italic {
   font-style: italic;
 } */

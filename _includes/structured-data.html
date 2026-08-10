@@ -1,0 +1,73 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "name": "{{ site.data.business.name }}",
+      "url": "{{ site.url }}/",
+      "description": "{{ site.data.business.description }}",
+      "publisher": {
+        "@id": "{{ site.url }}/#business"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "{{ site.url }}/#business",
+      "name": "{{ site.data.business.name }}",
+      "description": "{{ site.data.business.description }}",
+      "image": "{{ site.data.business.image | absolute_url }}",
+      "logo": "{{ site.data.business.logo | absolute_url }}",
+      "url": "{{ site.url }}/",
+      "telephone": "{{ site.data.business.telephone }}",
+      "email": "{{ site.data.business.email }}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Durban",
+        "addressRegion": "KwaZulu-Natal",
+        "addressCountry": "ZA"
+      },
+      "areaServed": {{ site.data.business.service_area | jsonify }},
+      "serviceType": {{ site.data.business.services | jsonify }},
+      "founder": {
+        "@id": "{{ site.url }}/#{{ site.data.business.coach | slugify }}"
+      },
+      "sameAs": [
+        "{{ site.data.business.social.linkedin }}"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#{{ site.data.business.coach | slugify }}",
+      "name": "{{ site.data.business.coach }}",
+      "jobTitle": "Personal and Executive Coach",
+      "worksFor": {
+        "@id": "{{ site.url }}/#business"
+      },
+      "image": "{{ site.data.business.image | absolute_url }}",
+      "sameAs": [
+        "{{ site.data.business.social.linkedin }}"
+      ]
+    },
+    {% if page.id == 'home' %}
+    {
+      "@type": "FAQPage",
+      "@id": "{{ site.url }}/#faq",
+      "mainEntity": [
+        {% for item in site.data.sitetext.home.faq.items %}
+        {
+          "@type": "Question",
+          "name": "{{ item.question }}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ item.answer }}"
+          }
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+    {% endif %}
+  ]
+}
+</script>

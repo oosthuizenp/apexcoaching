@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <link rel="canonical" href="{{ site.data.sitetext[page.page_id].canonical }}">
+  {% assign p = site.data.sitetext[page.page_id] %}
+  {% if p.title %}
+  <title>{{ p.title }}</title>
+  <meta name="title" content="{{ p.title }}">
+  {% endif %}
+  {% if p.description %}
+  <meta name="description" content="{{ p.description }}">
+  {% endif %}
+  {% if p.og %}
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ p.canonical }}">
+  <meta property="og:site_name" content="{{ p.og.site_name | default: site.title }}">
+  <meta property="og:locale" content="{{ p.og.locale | default: 'en_ZA' }}">
+  <meta property="og:title" content="{{ p.og.title | default: p.title }}">
+  <meta property="og:description" content="{{ p.og.description | default: p.description }}">
+  <meta property="og:image" content="{{ p.og.image | absolute_url }}">
+  {% endif %}
+  {% if p.twitter %}
+  <meta name="twitter:card" content="{{ p.twitter.card | default: 'summary_large_image' }}">
+  <meta name="twitter:title" content="{{ p.twitter.title | default: p.title }}">
+  <meta name="twitter:description" content="{{ p.twitter.description | default: p.description }}">
+  <meta name="twitter:image" content="{{ p.twitter.image | absolute_url }}">
+  {% endif %}
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
+  <!-- Google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Arvo:400,400italic,700">
+  <link rel="stylesheet" href="/assets/css/style.default.css" id="theme-stylesheet">
+  <link rel="icon" href="/assets/img/logo/favicon.png">
+  <link rel="shortcut icon" href="/assets/img/logo/favicon.png">
+  {% if site.data.business.ga4_id %}
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.business.ga4_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ site.data.business.ga4_id }}');
+  </script>
+  {% endif %}
+  {% if page.additional_head %}
+  {{ page.additional_head }}
+  {% endif %}
+</head>
+<body>
+  {% include header.html %}
+  {{ content }}
+  {% include footer.html %}
+  {% include structured-data.html %}
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
