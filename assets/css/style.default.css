@@ -516,7 +516,14 @@ footer {
 }
 
 .contact-line a {
-  color: #fff
+  color: #fff;
+  transition: color 0.2s ease;
+}
+
+.contact-line a:hover,
+.contact-line a:focus {
+  color: #e2a14c;
+  text-decoration: none;
 }
 
 .site-footer__social-icon {
@@ -525,6 +532,13 @@ footer {
   border-radius: 3px;
   width: 30px;
   line-height: 30px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.contact-line:hover .site-footer__social-icon,
+.contact-line:focus-within .site-footer__social-icon {
+  color: #1a1a1a;
+  background-color: #e2a14c;
 }
 
 p.social {

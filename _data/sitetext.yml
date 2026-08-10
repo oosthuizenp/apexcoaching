@@ -229,6 +229,10 @@ footer:
         - text: "Contact"
           url: "/contact.html"
   social:
+    - label: "WhatsApp Me"
+      url: "https://wa.me/27733167105"
+      icon: "fa fa-whatsapp"
+      external: true
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/craig-stuart-ab244950/"
       icon: "fa fa-linkedin"
