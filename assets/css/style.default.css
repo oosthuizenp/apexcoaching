@@ -134,6 +134,23 @@ nav.navbar a.nav-link {
   }
 }
 
+@media (max-width: 991.98px) {
+  nav.navbar .navbar-collapse {
+    text-align: right;
+  }
+
+  nav.navbar .navbar-nav {
+    align-items: flex-end;
+    padding: 12px 0 18px;
+  }
+
+  nav.navbar .nav-link {
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
 nav.navbar a.nav-link.active,
 nav.navbar a.nav-link:hover,
 nav.navbar a.nav-link:focus {

@@ -63,12 +63,17 @@
     (function() {
       var navbar = document.querySelector('.site-header .navbar');
       if (!navbar) return;
+      var navbarCollapse = document.getElementById('navbarSupportedContent');
       var threshold = 50;
       function onScroll() {
         if (window.scrollY > threshold) {
           navbar.classList.add('sticky');
         } else {
           navbar.classList.remove('sticky');
+        }
+
+        if (window.innerWidth < 992 && navbarCollapse && navbarCollapse.classList.contains('show')) {
+          $(navbarCollapse).collapse('hide');
         }
       }
       window.addEventListener('scroll', onScroll, { passive: true });
