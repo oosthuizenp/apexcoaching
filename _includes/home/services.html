@@ -4,7 +4,7 @@
       <div class="col-lg-12">
         <h2 class="section-heading">{{ site.data.sitetext.home.services.heading }}</h2>
         <div class="row">
-          {% for service in site.data.sitetext.home.services %}
+          {% for service in site.data.sitetext.home.services.items %}
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-box__icon"><i class="fa {{ service.icon }} fa-lg"></i></div>

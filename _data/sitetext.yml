@@ -66,6 +66,16 @@ home:
 
   services:
     heading: "What I Do"
+    items:
+      - icon: "fa-angle-double-up"
+        title: "Understanding"
+        text: "Increase levels of self-awareness."
+      - icon: "fa-shield"
+        title: "Strengthening"
+        text: "Encourage, motivate, and hold accountable."
+      - icon: "fa-unlock-alt"
+        title: "Unlocking"
+        text: "Create positive and lasting change."
 
   testimonials:
     heading: "What Others Say"

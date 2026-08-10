@@ -59,5 +59,21 @@
   {% include structured-data.html %}
   <script src="/assets/vendor/jquery/jquery.min.js"></script>
   <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    (function() {
+      var navbar = document.querySelector('.site-header .navbar');
+      if (!navbar) return;
+      var threshold = 50;
+      function onScroll() {
+        if (window.scrollY > threshold) {
+          navbar.classList.add('sticky');
+        } else {
+          navbar.classList.remove('sticky');
+        }
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+  </script>
 </body>
 </html>
