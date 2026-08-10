@@ -39,6 +39,7 @@ home:
   hero:
     heading: "Personal and Executive Coaching"
     tagline: "Apex Coaching with Craig Stuart in Durban, Umhlanga and remotely."
+    cta_text: "Book a conversation"
 
   about:
     heading: "About Craig"
@@ -185,3 +186,43 @@ contact:
       - "Foundations of Executive Coaching (UCT)"
       - "Neuro Leadership Institute (NLI) Brain Based Coach"
       - "Comensa Member"
+
+# Footer
+footer:
+  description: "Personal and executive coaching for leaders, teams and individuals in Durban, Umhlanga and remotely."
+  logo: "/assets/img/logo/apex-white.png"
+  sections:
+    - title: "Explore"
+      links:
+        - text: "Home"
+          url: "/"
+        - text: "About"
+          url: "/#about"
+        - text: "What I Do"
+          url: "/#whatido"
+        - text: "How I Help"
+          url: "/#howihelp"
+    - title: "Work With Me"
+      links:
+        - text: "Testimonials"
+          url: "/#testimonials"
+        - text: "Clients"
+          url: "/#clients"
+        - text: "FAQ"
+          url: "/#faq"
+        - text: "Contact"
+          url: "/contact.html"
+  social:
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/craig-stuart-ab244950/"
+      icon: "fa fa-linkedin"
+      external: true
+    - label: "Email"
+      url: "mailto:craig@apexleadership.co.za"
+      icon: "fa fa-envelope"
+      external: true
+    - label: "Phone"
+      url: "tel:+27733167105"
+      icon: "fa fa-phone"
+      external: true
+
