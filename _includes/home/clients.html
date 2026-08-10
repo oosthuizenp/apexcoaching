@@ -1,0 +1,14 @@
+<section id="clients" class="clients">
+  <div class="container">
+    <h2 class="section-heading">{{ site.data.sitetext.home.clients.heading }}</h2>
+    <div class="row no-gutters clients__wrap clearfix wow fadeInUp">
+      {% for logo in site.data.sitetext.home.clients.logos %}
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="clients__logo">
+          <img src="{{ logo.src }}" class="img-fluid" alt="{{ logo.alt }}" loading="lazy">
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

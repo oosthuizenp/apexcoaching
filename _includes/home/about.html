@@ -1,0 +1,15 @@
+<section id="about" class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="section-heading">{{ site.data.sitetext.home.about.heading }}</h2>
+        {% for para in site.data.sitetext.home.about.paragraphs %}
+        <p>{{ para }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-5 mx-auto">
+        <p><img src="/assets/img/profile/craig-stuart.png" alt="Craig Stuart" class="img-fluid rounded-circle" loading="lazy"></p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -37,8 +37,9 @@ home:
     image: "https://www.apexcoaching.co.za/assets/img/logo/apex-white.png"
 
   hero:
+    eyebrow: "Apex Coaching"
     heading: "Personal and Executive Coaching"
-    tagline: "Apex Coaching with Craig Stuart in Durban, Umhlanga and remotely."
+    tagline: "Coaching with Craig in person or online"
     cta_text: "Book a conversation"
 
   about:
