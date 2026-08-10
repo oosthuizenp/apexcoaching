@@ -1,0 +1,20 @@
+name: Apex Coaching
+coach: Craig Stuart
+description: Personal and executive coaching for leaders, teams and individuals.
+url: https://www.apexcoaching.co.za
+logo: /assets/img/logo/apex-white.png
+image: /assets/img/profile/craig-stuart.png
+telephone: "+27-73-316-7105"
+email: craig@apexleadership.co.za
+service_area:
+  - Durban
+  - Umhlanga
+  - Remote
+services:
+  - Personal coaching
+  - Executive coaching
+  - Leadership coaching
+  - Team coaching
+  - Self-leadership coaching
+social:
+  linkedin: https://www.linkedin.com/in/craig-stuart-ab244950/
