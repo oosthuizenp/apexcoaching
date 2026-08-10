@@ -101,16 +101,37 @@ NAVBAR
 *
 */
 nav.navbar {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.96);
   padding-top: 0;
   padding-bottom: 0;
-  box-shadow: none;
+  box-shadow: 0 1px 0 rgba(17, 17, 17, 0.08);
   transition: background 0.3s, box-shadow 0.3s;
 }
 
+nav.navbar .container,
+nav.navbar .navbar-nav,
+nav.navbar .nav-link,
+nav.navbar .navbar-brand,
+nav.navbar .navbar-toggler {
+  align-items: center;
+}
+
+nav.navbar .navbar-nav,
+nav.navbar .nav-link,
+nav.navbar .navbar-brand {
+  display: inline-flex;
+}
+
 nav.navbar a.nav-link {
-  color: #fff;
+  color: #1a1a1a;
   transition: color 0.3s;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 }
 
 nav.navbar a.nav-link.active,
@@ -128,27 +149,36 @@ nav.navbar.sticky {
   position: fixed;
   top: 0;
   left: 0;
-  background: #fff;
+  background: rgba(17, 17, 17, 0.94);
   z-index: 999;
-  box-shadow: 0 1px 0 #ddd;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
 nav.navbar.sticky a.nav-link {
-  color: #777;
+  color: #f5f5f5;
 }
 
 nav.navbar.sticky a.nav-link.active,
 nav.navbar.sticky a.nav-link:hover,
 nav.navbar.sticky a.nav-link:focus {
-  color: #1a1a1a;
+  color: #c8a45c;
 }
 
 nav.navbar.sticky a.nav-link.active {
-  border-bottom: 1px solid #1a1a1a;
+  border-bottom: 1px solid #c8a45c;
 }
 
 nav.navbar.sticky .site-header__logo {
-  filter: invert(1);
+  height: 64px;
+}
+
+nav.navbar.sticky .navbar-toggler {
+  color: #f5f5f5;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+nav.navbar.sticky .navbar-toggler i {
+  color: #f5f5f5;
 }
 
 
@@ -171,7 +201,7 @@ nav.navbar.sticky .site-header__logo {
   min-height: 550px;
   padding: 0;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
   overflow: hidden;
   /* background-attachment removed for mobile */
 
@@ -219,6 +249,17 @@ nav.navbar.sticky .site-header__logo {
 
 .site-header__logo {
   height: 80px;
+  width: auto;
+  transition: height 0.3s ease;
+}
+
+.site-header__logo--light,
+nav.navbar.sticky .site-header__logo--dark {
+  display: none;
+}
+
+nav.navbar.sticky .site-header__logo--light {
+  display: block;
 }
 
 .hero__content {
