@@ -762,15 +762,26 @@ code {
 /* CONTACT PAGE ==================== */
 
 .hero.hero--contact {
-position: relative;
-height: 80vh;
-color: #fff;
-background-color: #111;
-min-height: 700px;
-padding: 0;
-background-size: cover;
-background-position: center center;
-/* background-attachment removed for mobile */ 
+  position: relative;
+  height: 80vh;
+  color: #fff;
+  background-color: #111;
+  min-height: 700px;
+  padding: 0;
+  background-size: cover;
+  background-position: center center;
+  /* background-attachment removed for mobile */
+}
+
+@media (max-width: 767.98px) {
+  .hero.hero--contact {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .hero.hero--contact .hero__content {
+    padding: 120px 0 56px;
+  }
 }
 
 
@@ -989,6 +1000,14 @@ background-position: center center;
   }
 }
 @media (max-width: 575.98px) {
+  .hero__eyebrow {
+    font-weight: 700;
+  }
+
+  .hero__subtitle {
+    font-size: 1.1rem;
+  }
+
   .hero__title {
     font-size: 32px;
     line-height: 40px;
