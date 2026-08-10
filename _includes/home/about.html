@@ -1,14 +1,26 @@
 <section id="about" class="about">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <h2 class="section-heading">{{ site.data.sitetext.home.about.heading }}</h2>
-        {% for para in site.data.sitetext.home.about.paragraphs %}
-        <p>{{ para }}</p>
-        {% endfor %}
+    <div class="row align-items-center">
+      <div class="col-lg-5">
+        <div class="about__media">
+          <img src="/assets/img/profile/craig-stuart.png" alt="Craig Stuart" class="img-fluid rounded-circle about__portrait" loading="lazy">
+          <blockquote class="about__quote">
+            {{ site.data.sitetext.home.about.pull_quote }}
+          </blockquote>
+        </div>
       </div>
-      <div class="col-lg-5 mx-auto">
-        <p><img src="/assets/img/profile/craig-stuart.png" alt="Craig Stuart" class="img-fluid rounded-circle" loading="lazy"></p>
+      <div class="col-lg-7">
+        <h2 class="section-heading">{{ site.data.sitetext.home.about.heading }}</h2>
+        <p class="about__lead">{{ site.data.sitetext.home.about.lead }}</p>
+        <p class="about__summary">{{ site.data.sitetext.home.about.summary }}</p>
+        <div class="about__points">
+          {% for point in site.data.sitetext.home.about.points %}
+          <div class="about__point">
+            <h3>{{ point.title }}</h3>
+            <p>{{ point.text }}</p>
+          </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>

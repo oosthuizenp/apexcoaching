@@ -44,11 +44,16 @@ home:
 
   about:
     heading: "About Craig"
-    paragraphs:
-      - |
-        I am a coach and people development specialist who works with individuals and teams to create positive and lasting change. My work is grounded in the understanding that we are what we repeatedly do, and my approach involves helping people to overcome challenges through attention, repetition, and encouragement. This creates sound patterns of self-leadership through enhanced self-awareness. Not only does this process help individuals to be fully present in their work and life, it also ultimately empowers them to take control of what guides and drives them.
-      - |
-        My key strength lies in navigating relational complexity in the workplace. I do this by helping my clients gain perspective and a clear understanding of their environment, themselves, and their role in those spaces. My coaching niche lies in my ability to create healthy rhythms, routines, and habits for those already on their leadership journey or those just starting out, with the core belief that "It is not the mountain we conquer, but ourselves."
+    lead: "Craig Stuart is a personal and executive coach who helps people create lasting change through clearer self-awareness, steadier self-leadership, and practical habits that hold under pressure."
+    pull_quote: "The hardest person we will ever have to lead is ourselves."
+    summary: "Craig works with individuals and teams who want to understand themselves better, navigate relational complexity, and build healthier rhythms for work and life. His coaching creates space to pause, reflect, and turn insight into repeatable action."
+    points:
+      - title: "Clarity"
+        text: "Gain perspective on your environment, your role, and the patterns driving your decisions."
+      - title: "Self-leadership"
+        text: "Build awareness, responsibility, and practical ways to lead yourself before leading others."
+      - title: "Sustainable change"
+        text: "Create rhythms, routines, and habits that support growth beyond the coaching conversation."
 
   how_i_help:
     heading: "How I Can Help"
