@@ -360,10 +360,10 @@ nav.navbar.sticky .site-header__logo--light {
 @media (max-width: 767.98px) {
   .hero__content {
     position: relative;
-    padding: 80px 0;
-    top: 0;
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+    padding: 0;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
   }
 }
 
@@ -802,32 +802,6 @@ code {
 }
 
 
-/* Style the container/contact section */
-
-
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-
 /* FAQ */
 .faq {
   padding: 90px 0;
@@ -984,22 +958,22 @@ code {
 .hero__text {
   text-align: center;
 }
-.hero__eyebrow {
+.hero .hero__eyebrow {
   margin: 0 0 8px;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 36px;
   color: #fff;
 }
-.hero__title {
+.hero .hero__title {
   margin: 0 0 12px;
-  font-size: 70px;
+  font-size: 3vw;
   font-weight: 500;
   line-height: 92px;
   color: #fff;
   white-space: nowrap;
 }
-.hero__subtitle {
+.hero .hero__subtitle {
   margin: 0 0 24px;
   font-size: 22px;
   font-weight: 300;
@@ -1011,21 +985,23 @@ code {
 }
 /* Keep the large title on one line where it fits; scale it down, then allow wrap on small phones to avoid horizontal overflow */
 @media (max-width: 991.98px) {
-  .hero__title {
+  .hero .hero__title {
     font-size: 48px;
     line-height: 60px;
   }
 }
 @media (max-width: 575.98px) {
-  .hero__eyebrow {
-    font-weight: 700;
+  .hero .hero__eyebrow {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
   }
 
-  .hero__subtitle {
+  .hero .hero__subtitle {
     font-size: 1.1rem;
   }
 
-  .hero__title {
+  .hero .hero__title {
     font-size: 32px;
     line-height: 40px;
     white-space: normal;
