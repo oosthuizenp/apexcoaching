@@ -190,7 +190,7 @@ contact:
 # Footer
 footer:
   description: "Personal and executive coaching for leaders, teams and individuals in Durban, Umhlanga and remotely."
-  logo: "/assets/img/logo/apex-white.png"
+  logo: "/assets/img/logo/apex-logo-light.png"
   sections:
     - title: "Explore"
       links:
@@ -220,9 +220,10 @@ footer:
     - label: "Email"
       url: "mailto:craig@apexleadership.co.za"
       icon: "fa fa-envelope"
-      external: true
     - label: "Phone"
       url: "tel:+27733167105"
       icon: "fa fa-phone"
-      external: true
+  credits:
+    - text: "Site by Intellify"
+      url: "https://intellify.co.za/"
 

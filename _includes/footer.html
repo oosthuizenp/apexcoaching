@@ -1,25 +1,58 @@
-<footer id="contact" style="background-color: #111;">
+<footer class="site-footer">
   <div class="container">
-    <div class="row site-footer__copyright">
-      <div class="col-md-4 mb-md-0 text-center text-md-left">
-        <h5>Contact</h5>
-        <div class="contact-line">
-          <div class="site-footer__icon"><i class="fa fa-linkedin fa-lg site-footer__social-icon"></i></div><a class="align-bottom"
-            href="{{ site.data.business.social.linkedin }}" target="_blank">Craig Stuart</a>
-        </div>
-        <div class="contact-line">
-          <div class="site-footer__icon"><i class="fa fa-envelope fa-lg site-footer__social-icon"></i></div><a class="align-bottom"
-            href="mailto:{{ site.data.business.email }}">{{ site.data.business.email }}</a>
-        </div>
-        <div class="contact-line">
-          <div class="site-footer__icon"><i class="fa fa-phone fa-lg site-footer__social-icon"></i></div><a href="tel:{{ site.data.business.telephone }}"
-            class="align-bottom">{{ site.data.business.telephone }}</a>
-        </div>
-        <div class="contact-line">
-          <div class="site-footer__icon"><i class="fa fa-copyright fa-lg"></i></div><span
-            class="align-bottom">{{ site.data.business.copyright }}</span>
-        </div>
+    <div class="site-footer__main">
+      <div class="site-footer__brand">
+        <a href="{{ site.baseurl }}/" class="site-footer__logo-link" aria-label="Apex Coaching — home">
+          <img
+            src="{{ site.data.sitetext.footer.logo | default: '/assets/img/logo/apex-white.png' | relative_url }}"
+            alt="Apex Coaching"
+            class="site-footer__logo">
+        </a>
+        <p class="site-footer__description">
+          {{ site.data.sitetext.footer.description | default: site.description }}
+        </p>
+        {% if site.data.sitetext.footer.social %}
+        <ul class="site-footer__social" aria-label="Social links">
+          {% for social in site.data.sitetext.footer.social %}
+          <li>
+            <a
+              href="{{ social.url }}"
+              title="{{ social.label }}"
+              {% if social.external %}target="_blank" rel="noopener noreferrer"{% endif %}
+              aria-label="{{ social.label }}">
+              <i class="{{ social.icon }}" aria-hidden="true"></i>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
       </div>
+
+      {% if site.data.sitetext.footer.sections %}
+      <nav class="site-footer__navigation" aria-label="Footer navigation">
+        {% for section in site.data.sitetext.footer.sections %}
+        <div class="site-footer__column">
+          <h2 class="site-footer__heading">{{ section.title }}</h2>
+          <ul class="site-footer__links">
+            {% for link in section.links %}
+            <li><a href="{{ link.url | relative_url }}">{{ link.text }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </nav>
+      {% endif %}
+    </div>
+
+    <div class="site-footer__bottom">
+      <p class="site-footer__copyright">{{ site.data.sitetext.defaults.contact.copyright | default: site.title }}</p>
+      {% if site.data.sitetext.footer.credits %}
+      <ul class="site-footer__credits">
+        {% for credit in site.data.sitetext.footer.credits %}
+        <li><a href="{{ credit.url }}" target="_blank" rel="noopener noreferrer">{{ credit.text }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </div>
   </div>
 </footer>

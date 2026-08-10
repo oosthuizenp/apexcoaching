@@ -114,7 +114,12 @@ nav.navbar a.nav-link.active {
 }
 
 nav.navbar.sticky {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   background: #fff;
+  z-index: 999;
   box-shadow: 0 1px 0 #ddd;
 }
 
@@ -136,39 +141,7 @@ nav.navbar.sticky .site-header__logo {
   filter: invert(1);
 }
 
-nav.navbar a.nav-link {
-  position: relative;
-  top: 1px;
-  color: #777;
-  font-weight: bold;
-  border-bottom: 1px solid transparent;
-  padding-top: .6rem;
-  padding-bottom: .6rem;
-}
 
-nav.navbar a.nav-link.active,
-nav.navbar a.nav-link:hover,
-nav.navbar a.nav-link:focus {
-  color: #333;
-}
-
-nav.navbar a.nav-link.active {
-  border-bottom: 1px solid #333;
-}
-
-nav.navbar .navbar-brand {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-nav.navbar.sticky {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: #fff;
-  z-index: 999;
-}
 
 /* the-about  SECTION */
 
