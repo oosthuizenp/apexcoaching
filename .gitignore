@@ -1,0 +1,13 @@
+.vscode
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.bundle
+.bundle-user
+vendor/bundle
+docs/
+.kilo/
+Gemfile
+architecture-review.md
+brearkppoints.md

@@ -1,0 +1,18 @@
+title: Apex Coaching
+description: Personal and executive coaching with Craig Stuart.
+url: "https://www.apexcoaching.co.za"
+baseurl: ""
+
+exclude:
+  - .bundle/
+  - .bundle-user/
+  - .jekyll-cache/
+  - .kilo/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/bundle/
+  - CODE_REVIEW.md
+  - architecture-review.md
+  - brearkppoints.md
+  - seo-guru.md
