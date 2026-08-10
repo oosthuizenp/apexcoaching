@@ -24,10 +24,11 @@
   <meta property="og:image" content="{{ p.og.image | absolute_url }}">
   {% endif %}
   {% if p.twitter %}
-  <meta name="twitter:card" content="{{ p.twitter.card | default: 'summary_large_image' }}">
-  <meta name="twitter:title" content="{{ p.twitter.title | default: p.title }}">
-  <meta name="twitter:description" content="{{ p.twitter.description | default: p.description }}">
-  <meta name="twitter:image" content="{{ p.twitter.image | absolute_url }}">
+  <meta property="twitter:card" content="{{ p.twitter.card | default: 'summary_large_image' }}">
+  <meta property="twitter:url" content="{{ p.canonical }}">
+  <meta property="twitter:title" content="{{ p.twitter.title | default: p.title }}">
+  <meta property="twitter:description" content="{{ p.twitter.description | default: p.description }}">
+  <meta property="twitter:image" content="{{ p.twitter.image | absolute_url }}">
   {% endif %}
   <!-- Bootstrap CSS-->
   <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">

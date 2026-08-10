@@ -26,7 +26,7 @@ home:
   og:
     title: "Personal and Executive Coaching in Durban | Apex Coaching"
     description: "Personal, executive and leadership coaching with Craig Stuart in Durban, Umhlanga and remotely."
-    image: "https://www.apexcoaching.co.za/assets/img/logo/apex-white.png"
+    image: "https://www.apexcoaching.co.za/assets/img/social/social-share.jpg"
     site_name: "Apex Coaching"
     locale: "en_ZA"
 
@@ -34,7 +34,7 @@ home:
     card: "summary_large_image"
     title: "Personal and Executive Coaching in Durban | Apex Coaching"
     description: "Personal, executive and leadership coaching with Craig Stuart in Durban, Umhlanga and remotely."
-    image: "https://www.apexcoaching.co.za/assets/img/logo/apex-white.png"
+    image: "https://www.apexcoaching.co.za/assets/img/social/social-share.jpg"
 
   hero:
     eyebrow: "Apex Coaching"
@@ -183,7 +183,7 @@ contact:
   og:
     title: "Contact Craig Stuart | Apex Coaching"
     description: "Contact Craig Stuart for personal, executive and leadership coaching in Durban, Umhlanga or remotely."
-    image: "https://www.apexcoaching.co.za/assets/img/logo/apex-white.png"
+    image: "https://www.apexcoaching.co.za/assets/img/social/social-share.jpg"
     site_name: "Apex Coaching"
     locale: "en_ZA"
 
@@ -191,7 +191,7 @@ contact:
     card: "summary_large_image"
     title: "Contact Craig Stuart | Apex Coaching"
     description: "Contact Craig Stuart for personal, executive and leadership coaching in Durban, Umhlanga or remotely."
-    image: "https://www.apexcoaching.co.za/assets/img/logo/apex-white.png"
+    image: "https://www.apexcoaching.co.za/assets/img/social/social-share.jpg"
 
   hero:
     heading: "Contact Craig Stuart"
