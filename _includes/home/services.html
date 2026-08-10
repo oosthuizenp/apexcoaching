@@ -7,9 +7,11 @@
           {% for service in site.data.sitetext.home.services.items %}
           <div class="col-md-4">
             <div class="service-box">
-              <div class="service-box__icon"><i class="fa {{ service.icon }} fa-lg"></i></div>
-              <h5>{{ service.title }}</h5>
-              <p>{{ service.text }}</p>
+              <div class="service-box__content">
+                <div class="service-box__icon"><i class="fa {{ service.icon }} fa-lg"></i></div>
+                <h5>{{ service.title }}</h5>
+                <p>{{ service.text }}</p>
+              </div>
             </div>
           </div>
           {% endfor %}

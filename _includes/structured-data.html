@@ -49,8 +49,7 @@
       "sameAs": [
         "{{ site.data.business.social.linkedin }}"
       ]
-    },
-    {% if page.id == 'home' %}
+    }{% if page.page_id == 'home' %},
     {
       "@type": "FAQPage",
       "@id": "{{ site.url }}/#faq",
