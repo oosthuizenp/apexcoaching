@@ -199,6 +199,7 @@ nav.navbar.sticky .navbar-toggler i {
 
 .about__portrait {
   margin: 0 auto 28px;
+  border-radius: 5px;
 }
 
 .about__quote {
